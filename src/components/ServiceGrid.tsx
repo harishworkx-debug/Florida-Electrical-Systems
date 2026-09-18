@@ -30,7 +30,7 @@ export default function ServiceGrid() {
                 {service.intro[0].slice(0, 120)}...
               </p>
               <span className="inline-flex items-center gap-1 text-amber-600 font-semibold text-sm group-hover:gap-2 transition-all">
-                Learn More <ArrowRight className="w-4 h-4" />
+                {service.title} <ArrowRight className="w-4 h-4" />
               </span>
             </div>
           </Link>
