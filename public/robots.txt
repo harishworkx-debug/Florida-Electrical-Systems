@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.floridaelectricalsystems.org/sitemap.xml
+Sitemap: https://www.floridaelctricalsystems.org/sitemap.xml
