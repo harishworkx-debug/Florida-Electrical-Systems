@@ -1,4 +1,4 @@
-import { Link, useParams, Navigate } from 'react-router-dom';
+import { Link, useLocation, Navigate } from 'react-router-dom';
 import { Phone, CheckCircle2, ArrowRight, Star, ShieldCheck, Clock, MapPin } from 'lucide-react';
 import SEO from '@/components/SEO';
 import CTASection from '@/components/CTASection';
@@ -8,8 +8,9 @@ import LocationGrid from '@/components/LocationGrid';
 import { SITE, SERVICES, LOCATIONS } from '@/data/site';
 
 export default function ServicePage() {
-  const { slug } = useParams<{ slug: string }>();
-  const service = SERVICES.find((s) => slug === s.slug);
+  const { pathname } = useLocation();
+  const pathSlug = pathname.replace('/', '');
+  const service = SERVICES.find((s) => pathSlug.startsWith(s.slug));
 
   if (!service) return <Navigate to="/" replace />;
 

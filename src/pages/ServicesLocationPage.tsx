@@ -1,4 +1,4 @@
-import { Link, useParams, Navigate } from 'react-router-dom';
+import { Link, useLocation, Navigate } from 'react-router-dom';
 import { Phone, MapPin, Star, ShieldCheck, Clock, ArrowRight, CheckCircle2 } from 'lucide-react';
 import SEO from '@/components/SEO';
 import CTASection from '@/components/CTASection';
@@ -7,8 +7,9 @@ import LocationGrid from '@/components/LocationGrid';
 import { SITE, SERVICES, LOCATIONS } from '@/data/site';
 
 export default function ServicesLocationPage() {
-  const { slug } = useParams<{ slug: string }>();
-  const location = LOCATIONS.find((l) => l.slug === slug);
+  const { pathname } = useLocation();
+  const pathSlug = pathname.split('/')[1]?.replace('electrical-services-', '') || '';
+  const location = LOCATIONS.find((l) => l.slug === pathSlug);
 
   if (!location) return <Navigate to="/" replace />;
 
