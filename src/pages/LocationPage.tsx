@@ -170,7 +170,7 @@ export default function LocationPage() {
             {SERVICES.map((s) => (
               <Link
                 key={s.slug}
-                to={isMain ? `/${s.slug}-${mainLoc}` : `/electrician-${location.slug}`}
+                to={`/${s.slug}-${mainLoc}`}
                 className="flex items-center justify-between bg-white rounded-xl p-5 border border-gray-200 hover:border-amber-400 hover:shadow-md transition-all"
               >
                 <span className="font-semibold text-slate-900 text-sm">{s.title}</span>

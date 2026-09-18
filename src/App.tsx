@@ -10,7 +10,6 @@ import AboutPage from '@/pages/AboutPage';
 import ContactPage from '@/pages/ContactPage';
 import ServicePage from '@/pages/ServicePage';
 import LocationPage from '@/pages/LocationPage';
-import ServicesLocationPage from '@/pages/ServicesLocationPage';
 import { SERVICES, LOCATIONS } from '@/data/site';
 
 function ScrollToTop() {
@@ -32,10 +31,6 @@ function App() {
     <Route key={`loc-${l.slug}`} path={`/electrician-${l.slug}`} element={<LocationPage />} />
   ));
 
-  const servicesLocRoutes = LOCATIONS.map((l) => (
-    <Route key={`svcloc-${l.slug}`} path={`/electrical-services-${l.slug}`} element={<ServicesLocationPage />} />
-  ));
-
   return (
     <BrowserRouter>
       <ScrollToTop />
@@ -49,7 +44,6 @@ function App() {
           <Route path="/contact" element={<ContactPage />} />
           {serviceRoutes}
           {electricianRoutes}
-          {servicesLocRoutes}
           <Route path="/:slug" element={<ServicePage />} />
         </Routes>
       </main>

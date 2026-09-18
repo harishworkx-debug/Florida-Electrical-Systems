@@ -1,7 +1,7 @@
 export const SITE = {
   name: 'Florida Electrical Systems',
   domain: 'floridaelectricalsystems.org',
-  phone: '+1 863-308-1585',
+  phone: '863-308-1585',
   phoneRaw: '8633081585',
   email: 'info@floridaelectricalsystems.org',
   address: '5254 Parkland Ct, Lakeland, FL 33811',

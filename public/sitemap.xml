@@ -11,6 +11,11 @@
     <priority>0.9</priority>
   </url>
   <url>
+    <loc>https://www.floridaelectricalsystems.org/service-areas/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>https://www.floridaelectricalsystems.org/about/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -21,52 +26,107 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.floridaelectricalsystems.org/residential-electrician/</loc>
+    <loc>https://www.floridaelectricalsystems.org/residential-electrician-lakeland/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.floridaelectricalsystems.org/commercial-electrician/</loc>
+    <loc>https://www.floridaelectricalsystems.org/commercial-electrician-lakeland/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.floridaelectricalsystems.org/electrical-repair/</loc>
+    <loc>https://www.floridaelectricalsystems.org/electrical-repair-lakeland/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.floridaelectricalsystems.org/emergency-electrician/</loc>
+    <loc>https://www.floridaelectricalsystems.org/emergency-electrician-lakeland/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.floridaelectricalsystems.org/electrical-panel-upgrade/</loc>
+    <loc>https://www.floridaelectricalsystems.org/electrical-panel-upgrade-lakeland/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.floridaelectricalsystems.org/ev-charger-installation/</loc>
+    <loc>https://www.floridaelectricalsystems.org/ev-charger-installation-lakeland/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.floridaelectricalsystems.org/lighting-installation/</loc>
+    <loc>https://www.floridaelectricalsystems.org/lighting-installation-lakeland/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.floridaelectricalsystems.org/outlet-switch-repair/</loc>
+    <loc>https://www.floridaelectricalsystems.org/outlet-switch-repair-lakeland/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.floridaelectricalsystems.org/ceiling-fan-installation/</loc>
+    <loc>https://www.floridaelectricalsystems.org/ceiling-fan-installation-lakeland/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.floridaelectricalsystems.org/electrical-inspection/</loc>
+    <loc>https://www.floridaelectricalsystems.org/electrical-inspection-lakeland/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.floridaelectricalsystems.org/electrician-bartow/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.floridaelectricalsystems.org/electrician-winter-haven/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.floridaelectricalsystems.org/electrician-auburndale/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.floridaelectricalsystems.org/electrician-mulberry/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.floridaelectricalsystems.org/electrician-plant-city/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.floridaelectricalsystems.org/electrician-haines-city/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.floridaelectricalsystems.org/electrician-davenport/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.floridaelectricalsystems.org/electrician-lake-wales/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.floridaelectricalsystems.org/electrician-lake-alfred/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.floridaelectricalsystems.org/electrician-polk-city/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.floridaelectricalsystems.org/electrician-fort-meade/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>

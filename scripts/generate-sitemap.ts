@@ -25,16 +25,11 @@ SERVICES.forEach(service => {
   });
 });
 
-// Add locations (electrician-[city] and electrical-services-[city])
+// Add locations (electrician-[city])
 LOCATIONS.forEach(location => {
   if (!location.isMain) {
     urls.push({
       loc: `/electrician-${location.slug}`,
-      changefreq: 'monthly',
-      priority: '0.8'
-    });
-    urls.push({
-      loc: `/electrical-services-${location.slug}`,
       changefreq: 'monthly',
       priority: '0.8'
     });
