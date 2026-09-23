@@ -29,7 +29,7 @@ export default function ServicesPage() {
     <>
       <SEO
         title="Electrical Services Lakeland FL | Florida Electrical Systems"
-        description="Complete electrical services in Lakeland, FL. Residential, commercial, emergency, panel upgrades, EV chargers, lighting, repairs, inspections & more. Call 863-308-1585."
+        description="Complete electrical services in Lakeland, FL. Residential, commercial, emergency, panel upgrades, EV chargers, lighting, repairs, inspections & more. Call (863) 695-9819."
         canonical="/services"
         schema={schema}
       />

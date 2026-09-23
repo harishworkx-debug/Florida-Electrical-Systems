@@ -76,8 +76,8 @@ export default function HomePage() {
   return (
     <>
       <SEO
-        title="Electrician Lakeland FL | Florida Electrical Systems | 863-308-1585"
-        description="Licensed electrician in Lakeland, FL. Residential, commercial, emergency electrical services, panel upgrades, EV chargers, lighting & more. Serving all of Polk County. Call 863-308-1585."
+        title="Electrician Lakeland FL | Florida Electrical Systems | (863) 695-9819"
+        description="Licensed electrician in Lakeland, FL. Residential, commercial, emergency electrical services, panel upgrades, EV chargers, lighting & more. Serving all of Polk County. Call (863) 695-9819."
         canonical="/"
         schema={[schema, faqSchema]}
       />

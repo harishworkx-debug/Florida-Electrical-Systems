@@ -25,7 +25,7 @@ export default function ServiceAreasPage() {
     <>
       <SEO
         title="Service Areas | Florida Electrical Systems | Lakeland & Polk County"
-        description="Florida Electrical Systems serves Lakeland, Bartow, Winter Haven, Auburndale, Mulberry, Plant City, Haines City, Davenport, Lake Wales & more across Polk County, FL. Call 863-308-1585."
+        description="Florida Electrical Systems serves Lakeland, Bartow, Winter Haven, Auburndale, Mulberry, Plant City, Haines City, Davenport, Lake Wales & more across Polk County, FL. Call (863) 695-9819."
         canonical="/service-areas"
         schema={schema}
       />

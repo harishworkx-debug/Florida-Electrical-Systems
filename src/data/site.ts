@@ -1,7 +1,7 @@
 export const SITE = {
   name: 'Florida Electrical Systems',
   domain: 'floridaelctricalsystems.org',
-  phone: '863-308-1585',
+  phone: '(863) 695-9819',
   phoneRaw: '8633081585',
   email: 'info@floridaelctricalsystems.org',
   address: '5254 Parkland Ct, Lakeland, FL 33811',
@@ -63,7 +63,7 @@ export const SERVICES: ServicePage[] = [
     heroImage: 'https://images.pexels.com/photos/32497160/pexels-photo-32497160.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     heroAlt: 'Electrician examining a residential electrical panel in Lakeland, FL',
     metaTitle: 'Residential Electrician Lakeland FL | Florida Electrical Systems',
-    metaDesc: 'Licensed residential electricians in Lakeland, FL. Wiring, panel upgrades, lighting, outlets, and whole-home electrical services. Call 863-308-1585 for a free estimate.',
+    metaDesc: 'Licensed residential electricians in Lakeland, FL. Wiring, panel upgrades, lighting, outlets, and whole-home electrical services. Call (863) 695-9819 for a free estimate.',
     h1: 'Residential Electrician in Lakeland, FL',
     intro: [
       'Your home\'s electrical system powers everything from your morning coffee to your family\'s safety at night. At Florida Electrical Systems, our residential electricians in Lakeland, FL deliver dependable, code-compliant electrical work for homeowners throughout Polk County.',
@@ -76,12 +76,12 @@ export const SERVICES: ServicePage[] = [
       { title: 'Whole-Home Expertise', desc: 'From the service panel to the last outlet, we handle every aspect of your home\'s electrical system.' },
     ],
     process: [
-      { title: 'Schedule a Visit', desc: 'Call 863-308-1585 or request service online. We\'ll find a time that works for you.' },
+      { title: 'Schedule a Visit', desc: 'Call (863) 695-9819 or request service online. We\'ll find a time that works for you.' },
       { title: 'On-Site Assessment', desc: 'Our electrician inspects the issue, explains your options, and provides an upfront quote.' },
       { title: 'Professional Repair', desc: 'We complete the work cleanly and safely, testing everything before we leave.' },
     ],
     faqs: [
-      { q: 'Do you offer free estimates for residential electrical work?', a: 'Yes. We provide free estimates for most residential projects. Call 863-308-1585 to schedule.' },
+      { q: 'Do you offer free estimates for residential electrical work?', a: 'Yes. We provide free estimates for most residential projects. Call (863) 695-9819 to schedule.' },
       { q: 'Can you work on older homes in Lakeland?', a: 'Absolutely. We have extensive experience with older homes, including knob-and-tube wiring replacement and panel modernization.' },
       { q: 'Are your electricians licensed?', a: 'Yes, all our electricians are fully licensed and insured in the state of Florida.' },
     ],
@@ -94,7 +94,7 @@ export const SERVICES: ServicePage[] = [
     heroImage: 'https://images.pexels.com/photos/14319099/pexels-photo-14319099.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     heroAlt: 'Commercial electrician working on industrial control panel wiring',
     metaTitle: 'Commercial Electrician Lakeland FL | Florida Electrical Systems',
-    metaDesc: 'Commercial electrical contractor in Lakeland, FL for businesses, retail, offices, and industrial facilities. Panel upgrades, wiring, lighting, and maintenance. Call 863-308-1585.',
+    metaDesc: 'Commercial electrical contractor in Lakeland, FL for businesses, retail, offices, and industrial facilities. Panel upgrades, wiring, lighting, and maintenance. Call (863) 695-9819.',
     h1: 'Commercial Electrician in Lakeland, FL',
     intro: [
       'When your business depends on reliable power, you need a commercial electrician who understands the demands of operating in Lakeland and across Central Florida. Florida Electrical Systems provides commercial electrical services for retail stores, offices, restaurants, warehouses, and industrial facilities throughout Polk County.',
@@ -125,7 +125,7 @@ export const SERVICES: ServicePage[] = [
     heroImage: 'https://images.pexels.com/photos/257736/pexels-photo-257736.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     heroAlt: 'Electrician repairing circuit breaker panel wiring',
     metaTitle: 'Electrical Repair Lakeland FL | Florida Electrical Systems',
-    metaDesc: 'Fast, reliable electrical repair in Lakeland, FL. Flickering lights, tripping breakers, faulty outlets, and wiring issues. Licensed electricians ready to help. Call 863-308-1585.',
+    metaDesc: 'Fast, reliable electrical repair in Lakeland, FL. Flickering lights, tripping breakers, faulty outlets, and wiring issues. Licensed electricians ready to help. Call (863) 695-9819.',
     h1: 'Electrical Repair in Lakeland, FL',
     intro: [
       'Electrical problems don\'t wait for a convenient time. Whether your breakers keep tripping, your lights flicker, or an outlet has stopped working, Florida Electrical Systems provides fast, reliable electrical repair services throughout Lakeland and Polk County.',
@@ -156,7 +156,7 @@ export const SERVICES: ServicePage[] = [
     heroImage: 'https://images.pexels.com/photos/34610697/pexels-photo-34610697.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     heroAlt: 'Electricians repairing damaged electrical lines after a storm',
     metaTitle: 'Emergency Electrician Lakeland FL 24/7 | Florida Electrical Systems',
-    metaDesc: '24/7 emergency electrician in Lakeland, FL. Power outages, sparking, burning smells, storm damage. Fast response. Call 863-308-1585 now.',
+    metaDesc: '24/7 emergency electrician in Lakeland, FL. Power outages, sparking, burning smells, storm damage. Fast response. Call (863) 695-9819 now.',
     h1: 'Emergency Electrician in Lakeland, FL',
     intro: [
       'Electrical emergencies can happen at any hour, and when they do, you need a licensed electrician who responds quickly. Florida Electrical Systems offers emergency electrical service throughout Lakeland and Polk County, 24 hours a day, 7 days a week.',
@@ -169,7 +169,7 @@ export const SERVICES: ServicePage[] = [
       { title: 'Storm Ready', desc: 'Florida storms cause power surges and damage. We\'re experienced in post-storm electrical repairs.' },
     ],
     process: [
-      { title: 'Call Immediately', desc: 'Call 863-308-1585. Describe the emergency so we can prioritize and prepare.' },
+      { title: 'Call Immediately', desc: 'Call (863) 695-9819. Describe the emergency so we can prioritize and prepare.' },
       { title: 'Stay Safe', desc: 'If you smell burning or see sparks, turn off power at the main breaker if safe to do so. Don\'t use water near electrical equipment.' },
       { title: 'We Arrive & Repair', desc: 'Our electrician secures the hazard, diagnoses the problem, and performs the repair.' },
     ],
@@ -187,7 +187,7 @@ export const SERVICES: ServicePage[] = [
     heroImage: 'https://images.pexels.com/photos/27928762/pexels-photo-27928762.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     heroAlt: 'Electrician working on a circuit breaker panel upgrade',
     metaTitle: 'Electrical Panel Upgrade Lakeland FL | Florida Electrical Systems',
-    metaDesc: 'Electrical panel upgrades and replacements in Lakeland, FL. Replace outdated 100-amp panels, add circuits, and improve safety. Free estimates. Call 863-308-1585.',
+    metaDesc: 'Electrical panel upgrades and replacements in Lakeland, FL. Replace outdated 100-amp panels, add circuits, and improve safety. Free estimates. Call (863) 695-9819.',
     h1: 'Electrical Panel Upgrade in Lakeland, FL',
     intro: [
       'Your electrical panel is the heart of your home\'s power system. If your panel is outdated, overloaded, or frequently tripping breakers, it\'s time for an upgrade. Florida Electrical Systems specializes in electrical panel upgrades for homes and businesses throughout Lakeland and Polk County.',
@@ -218,7 +218,7 @@ export const SERVICES: ServicePage[] = [
     heroImage: 'https://images.pexels.com/photos/5391509/pexels-photo-5391509.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     heroAlt: 'Wall-mounted electric vehicle charging station installation',
     metaTitle: 'EV Charger Installation Lakeland FL | Florida Electrical Systems',
-    metaDesc: 'EV charger installation in Lakeland, FL. Level 2 home chargers, Tesla Wall Connector, and commercial charging stations. Licensed electricians. Call 863-308-1585.',
+    metaDesc: 'EV charger installation in Lakeland, FL. Level 2 home chargers, Tesla Wall Connector, and commercial charging stations. Licensed electricians. Call (863) 695-9819.',
     h1: 'EV Charger Installation in Lakeland, FL',
     intro: [
       'Electric vehicles are the future of transportation, and a dedicated home charger makes owning one effortless. Florida Electrical Systems provides professional EV charger installation for homeowners and businesses throughout Lakeland and Polk County.',
@@ -238,7 +238,7 @@ export const SERVICES: ServicePage[] = [
     faqs: [
       { q: 'Can I use a regular outlet to charge my EV?', a: 'A standard 120V outlet works but charges very slowly. A dedicated 240V Level 2 charger is strongly recommended for daily use.' },
       { q: 'Do I need a panel upgrade for an EV charger?', a: 'If your panel is near capacity, we may recommend an upgrade. We\'ll assess this during your free estimate.' },
-      { q: 'How much does EV charger installation cost?', a: 'Costs vary based on panel capacity, wiring distance, and charger type. Call 863-308-1585 for a free estimate.' },
+      { q: 'How much does EV charger installation cost?', a: 'Costs vary based on panel capacity, wiring distance, and charger type. Call (863) 695-9819 for a free estimate.' },
     ],
   },
   {
@@ -249,7 +249,7 @@ export const SERVICES: ServicePage[] = [
     heroImage: 'https://images.pexels.com/photos/39558345/pexels-photo-39558345.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     heroAlt: 'Modern lighting installation with decorative pendant lights',
     metaTitle: 'Lighting Installation Lakeland FL | Florida Electrical Systems',
-    metaDesc: 'Lighting installation in Lakeland, FL. Recessed lighting, LED upgrades, outdoor lighting, landscape lights, and chandeliers. Licensed electricians. Call 863-308-1585.',
+    metaDesc: 'Lighting installation in Lakeland, FL. Recessed lighting, LED upgrades, outdoor lighting, landscape lights, and chandeliers. Licensed electricians. Call (863) 695-9819.',
     h1: 'Lighting Installation in Lakeland, FL',
     intro: [
       'The right lighting transforms a space. Whether you\'re updating your kitchen with recessed LEDs, adding security lighting to your property, or installing a chandelier in your entryway, Florida Electrical Systems provides professional lighting installation throughout Lakeland and Polk County.',
@@ -280,7 +280,7 @@ export const SERVICES: ServicePage[] = [
     heroImage: 'https://images.pexels.com/photos/7647233/pexels-photo-7647233.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     heroAlt: 'Electrician repairing an electrical outlet indoors',
     metaTitle: 'Outlet & Switch Repair Lakeland FL | Florida Electrical Systems',
-    metaDesc: 'Outlet and switch repair in Lakeland, FL. Dead outlets, loose switches, GFCI installation, USB outlets, and smart switches. Licensed electricians. Call 863-308-1585.',
+    metaDesc: 'Outlet and switch repair in Lakeland, FL. Dead outlets, loose switches, GFCI installation, USB outlets, and smart switches. Licensed electricians. Call (863) 695-9819.',
     h1: 'Outlet & Switch Repair in Lakeland, FL',
     intro: [
       'Outlets and switches are the most-used parts of your electrical system, and when they fail, they\'re more than an inconvenience, they can be a safety hazard. Florida Electrical Systems repairs and replaces outlets and switches throughout Lakeland and Polk County.',
@@ -311,7 +311,7 @@ export const SERVICES: ServicePage[] = [
     heroImage: 'https://images.pexels.com/photos/3935316/pexels-photo-3935316.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     heroAlt: 'Living room with ceiling fan and modern interior',
     metaTitle: 'Ceiling Fan Installation Lakeland FL | Florida Electrical Systems',
-    metaDesc: 'Ceiling fan installation in Lakeland, FL. Indoor and outdoor ceiling fans, fan-rated boxes, light kits, and remote controls. Licensed electricians. Call 863-308-1585.',
+    metaDesc: 'Ceiling fan installation in Lakeland, FL. Indoor and outdoor ceiling fans, fan-rated boxes, light kits, and remote controls. Licensed electricians. Call (863) 695-9819.',
     h1: 'Ceiling Fan Installation in Lakeland, FL',
     intro: [
       'In Florida\'s warm climate, a ceiling fan is essential for comfort and energy savings. Florida Electrical Systems provides professional ceiling fan installation for homes and businesses throughout Lakeland and Polk County.',
@@ -342,7 +342,7 @@ export const SERVICES: ServicePage[] = [
     heroImage: 'https://images.pexels.com/photos/8293678/pexels-photo-8293678.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     heroAlt: 'Electrician performing a home electrical safety inspection',
     metaTitle: 'Electrical Inspection Lakeland FL | Florida Electrical Systems',
-    metaDesc: 'Electrical safety inspection in Lakeland, FL. Whole-home inspections, pre-purchase inspections, insurance inspections, and code compliance. Call 863-308-1585.',
+    metaDesc: 'Electrical safety inspection in Lakeland, FL. Whole-home inspections, pre-purchase inspections, insurance inspections, and code compliance. Call (863) 695-9819.',
     h1: 'Electrical Inspection in Lakeland, FL',
     intro: [
       'Whether you\'re buying a home, renovating, or just want peace of mind, a professional electrical inspection reveals hidden hazards before they become emergencies. Florida Electrical Systems provides thorough electrical inspections for homes and businesses throughout Lakeland and Polk County.',
@@ -370,7 +370,7 @@ export const SERVICES: ServicePage[] = [
 export const HOME_FAQS = [
   { q: 'What areas does Florida Electrical Systems serve?', a: 'We serve Lakeland and all of Polk County, including Bartow, Winter Haven, Auburndale, Mulberry, Plant City, Haines City, Davenport, Lake Wales, and surrounding communities in Central Florida.' },
   { q: 'Are you licensed and insured?', a: 'Yes. Florida Electrical Systems is a fully licensed and insured electrical contractor serving Lakeland and Polk County. Every electrician on our team is trained, background-checked, and covered.' },
-  { q: 'Do you offer free estimates?', a: 'Yes, we provide free estimates for most residential and commercial electrical projects. Call 863-308-1585 to schedule yours.' },
+  { q: 'Do you offer free estimates?', a: 'Yes, we provide free estimates for most residential and commercial electrical projects. Call (863) 695-9819 to schedule yours.' },
   { q: 'Do you offer 24/7 emergency service?', a: 'Yes. We provide emergency electrical service 24 hours a day, 7 days a week throughout Lakeland and Polk County.' },
   { q: 'How quickly can you come out?', a: 'For emergencies, we dispatch as quickly as possible. For standard service calls, we often offer same-day or next-day appointments depending on the season.' },
   { q: 'What types of electrical work do you do?', a: 'We handle residential, commercial, and industrial electrical work including panel upgrades, repairs, EV chargers, lighting, inspections, wiring, and emergency service.' },
