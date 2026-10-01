@@ -1,5 +1,5 @@
 import { Link, useLocation, Navigate } from 'react-router-dom';
-import { Phone, CheckCircle2, ArrowRight, Star, ShieldCheck, Clock, MapPin } from 'lucide-react';
+import { Phone, CheckCircle2, ArrowRight, Star, ShieldCheck, Clock, MapPin, Siren } from 'lucide-react';
 import SEO from '@/components/SEO';
 import CTASection from '@/components/CTASection';
 import FAQAccordion from '@/components/FAQAccordion';
@@ -70,8 +70,27 @@ export default function ServicePage() {
         schema={[schema, faqSchema, breadcrumbSchema]}
       />
 
+      {/* Emergency Banner */}
+      {service.slug === 'emergency-electrician' && (
+        <div className="bg-red-600 text-white py-4 px-4 sm:px-6 lg:px-8 relative z-20 mt-[72px]">
+          <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-center gap-4 text-center sm:text-left">
+            <div className="flex items-center gap-2 font-bold text-lg">
+              <Siren className="w-6 h-6 animate-pulse" />
+              <span>24/7 ELECTRICAL EMERGENCY?</span>
+            </div>
+            <p className="text-red-100 hidden md:block">Sparks, burning smells, or power loss?</p>
+            <a
+              href={`tel:${SITE.phoneRaw}`}
+              className="bg-white text-red-600 font-bold px-6 py-2 rounded-full hover:bg-red-50 transition-colors shadow-sm whitespace-nowrap"
+            >
+              Call {SITE.phone} Now
+            </a>
+          </div>
+        </div>
+      )}
+
       {/* Hero */}
-      <section className="relative min-h-[400px] lg:min-h-[500px] flex items-center pt-16 lg:pt-20">
+      <section className={`relative min-h-[400px] lg:min-h-[500px] flex items-center ${service.slug === 'emergency-electrician' ? 'pt-8' : 'pt-16 lg:pt-20'}`}>
         <div className="absolute inset-0 z-0">
           <img
             src={service.heroImage}

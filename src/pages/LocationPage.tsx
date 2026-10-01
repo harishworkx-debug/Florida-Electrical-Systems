@@ -137,6 +137,11 @@ export default function LocationPage() {
           <p className="text-gray-600 leading-relaxed mb-4 text-lg">
             Florida Electrical Systems is your local, licensed electrical contractor serving {location.name} and the surrounding {location.county} area. Whether you need a panel upgrade, a wiring repair, an EV charger installed, or emergency electrical service, our experienced electricians are ready to help.
           </p>
+          {location.localRelevance && (
+            <p className="text-gray-600 leading-relaxed mb-4 text-lg border-l-4 border-amber-400 pl-4 bg-gray-50/50 py-2 rounded-r-lg">
+              {location.localRelevance}
+            </p>
+          )}
           <p className="text-gray-600 leading-relaxed mb-4 text-lg">
             {location.name} residents and businesses trust us for honest pricing, quality workmanship, and dependable service. We handle everything from small outlet repairs to full commercial electrical installations, all backed by our workmanship guarantee.
           </p>
