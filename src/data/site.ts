@@ -1,6 +1,6 @@
 export const SITE = {
   name: 'Florida Electrical Systems',
-  domain: 'floridaelctricalsystems.org',
+  domain: 'www.floridaelctricalsystems.org',
   phone: '(863) 281-0077',
   phoneRaw: '8632810077',
   email: 'info@floridaelctricalsystems.org',

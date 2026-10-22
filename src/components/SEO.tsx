@@ -49,7 +49,7 @@ export default function SEO({ title, description, canonical, schema }: SEOProps)
     }
     link.setAttribute('href', `https://${SITE.domain}${canonical || ''}`);
 
-    let existingSchema = document.getElementById('page-schema');
+    const existingSchema = document.getElementById('page-schema');
     if (existingSchema) existingSchema.remove();
 
     if (schema) {

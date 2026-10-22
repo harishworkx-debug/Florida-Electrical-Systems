@@ -79,7 +79,7 @@ export default function LocationPage() {
     <>
       <SEO
         title={`Electrician ${location.name} FL | ${SITE.name} | ${SITE.phone}`}
-        description={`Licensed electrician in ${location.name}, ${location.county}. Residential, commercial, emergency electrical services, panel upgrades, EV chargers, lighting & more. Call ${SITE.phoneRaw}.`}
+        description={`Licensed electrician in ${location.name}, ${location.county}. Residential, commercial, emergency electrical services, panel upgrades, EV chargers, lighting & more. Call ${SITE.phone}.`}
         canonical={`/electrician-${location.slug}`}
         schema={[schema, faqSchema, breadcrumbSchema]}
       />

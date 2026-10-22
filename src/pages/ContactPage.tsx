@@ -17,7 +17,7 @@ export default function ContactPage() {
     <>
       <SEO
         title={`Contact Us | ${SITE.name} | Lakeland Electrician`}
-        description={`Contact Florida Electrical Systems for electrical service in Lakeland, FL. Call ${SITE.phoneRaw}, visit our Lakeland location, or request service online. 24/7 emergency service available.`}
+        description={`Contact Florida Electrical Systems for electrical service in Lakeland, FL. Call ${SITE.phone}, visit our Lakeland location, or request service online. 24/7 emergency service available.`}
         canonical="/contact"
         schema={schema}
       />
